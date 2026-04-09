@@ -3,20 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Calculator Landing Page</title>
     <style>
-        * {
+        body {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-        body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
         .container {
             text-align: center;
@@ -33,17 +30,17 @@
             color: #666;
             margin-bottom: 30px;
         }
-        button {
+        a {
+            display: inline-block;
+            padding: 12px 30px;
             background: #667eea;
             color: white;
-            border: none;
-            padding: 12px 30px;
-            font-size: 16px;
+            text-decoration: none;
             border-radius: 5px;
-            cursor: pointer;
+            font-weight: bold;
             transition: background 0.3s;
         }
-        button:hover {
+        a:hover {
             background: #764ba2;
         }
     </style>
@@ -51,8 +48,8 @@
 <body>
     <div class="container">
         <h1>Welcome to Calculator</h1>
-        <p>A simple and elegant calculator app</p>
-        <button><a href="calc-online\public\index.html"></a></button>
+        <p>Fast and easy calculations at your fingertips</p>
+        <a href="calc-online/index.html">Open Calculator</a>
     </div>
 </body>
 </html>
